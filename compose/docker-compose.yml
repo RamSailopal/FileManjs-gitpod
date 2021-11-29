@@ -23,6 +23,8 @@ services:
    hostname: react
    ports:
       - 3001:3000
+   environment:
+      - GITADD=$GITADD
    volumes:
       - ../react/package.json:/home/react/fileman/package.json
       - ../react/src:/home/react/fileman/src

@@ -12,7 +12,7 @@ export default class App extends Component {
                                   }
                     }
           async getUsersData(){
-                      const res = await axios({url: 'http://192.168.240.21:8080/http://192.168.240.21:443/fmqlEP?fmql=SELECT%209_6%20LIMIT%20100' })
+                      const res = await axios({url: 'http://192.168.240.21:8080/http://' + process.env.REACT_APP_GITADD + ':443/fmqlEP?fmql=SELECT%209_6%20LIMIT%20100' })
                       console.log(res.data.results)
                       this.setState({loading:false, users: res.data.results})
                     }
