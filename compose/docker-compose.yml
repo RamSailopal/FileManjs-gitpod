@@ -19,7 +19,7 @@ services:
       - yottanet
 
  react:
-   image: ramb0/reactjs
+   image: docker.io/ramb0/reactjs
    hostname: react
    ports:
       - 3001:3000
@@ -31,7 +31,7 @@ services:
    entrypoint: [ "/bin/bash", "-c", "cd /home/react/fileman && npm install && npm start" ]
 
  reactprox:
-   image: ramb0/reactprox
+   image: docker.io/ramb0/reactprox
    hostname: reactprox
    ports:
       - 8080:8080
