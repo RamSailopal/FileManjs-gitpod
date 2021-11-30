@@ -3,4 +3,4 @@ tasks:
   - init: |
       echo 'TODO: build project'
     command: |
-      export GITADD="https://8080-${GITPOD_WORKSPACE_URL##https://}/9100-${GITPOD_WORKSPACE_URL##https://}" && cd compose-gitpod && docker-compose up
+      export GITADD="https://8080-${GITPOD_WORKSPACE_URL##https://}/9100-${GITPOD_WORKSPACE_URL##https://}" && cd compose && docker-compose up
