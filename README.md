@@ -10,7 +10,7 @@ To run a Gitpod with this repo:
 
 1) Create a free/paid Gitpod account - https://www.gitpod.io/
 2) Log into the account
-3) Open a new browser tab and add **https://github.com/RamSailopal/FileManjs-gitpod** to the address - This will create a new Gitpod cloud instance.
+3) Open a new browser tab and add **gitpod.io/#https://github.com/RamSailopal/FileManjs-gitpod** to the address - This will create a new Gitpod cloud instance.
 4) Due to blocked cross origin requests, ports 3001 and 9100 need to be made public in Gitpod.
 5) Due to blocked cross origin requests, A CORS browser add-on also needs to be added and enabled
    https://addons.mozilla.org/en-GB/firefox/addon/cors-everywhere/
