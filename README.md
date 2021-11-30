@@ -1,6 +1,6 @@
 # Background
 
-![Alt text](Gitpod.PNG?raw=true "Gitpod View")
+![Alt text](FileMan-React-gitpod.JPG?raw=true "Gitpod View")
 
 A repo that allows Reactjs development against FileMan in Gitpod
 
