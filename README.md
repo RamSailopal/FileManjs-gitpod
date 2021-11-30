@@ -19,4 +19,5 @@ To run a Gitpod with this repo:
 
 ![Alt text](react-table.JPG?raw=true "FMQL in react-table form")
 
-7) Step 3 is for sample only. If you want to make changes to your own repo, first fork this repo and then add that repo after the **gitpod.io/#** prefix to create a new gitpod intance.
+7) Step 3 is for sample only. If you want to make changes to your own repo, first fork this repo and then add that repo after the **gitpod.io/#** prefix to create a new gitpod instance.
+8) **App.js** in **react/src** is the root file that gets executed by the React web server
